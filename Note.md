@@ -44,6 +44,18 @@ g_strWKDir = g_strDLLDir;
 
 g_strDLLDir += "\\DLLConfig.ini";
 
-//
+```
+---
+
+### VS2013读取excel
+```C++
+一、选中项目名称，右键->class wizard
+二、添加MFC class from tepelib
+三、单选文件，选中excel安装位置
+四、添加类：_Application、Range、_Workbook、_Worksheet、Workbooks、Worksheets
+五、注释每个头文件的 #import "D:\\software\\office2010\\Office14\\EXCEL.EXE"no_namespace
+六、将DialogBox()改为_DialogBox()
 
 ```
+---
+
